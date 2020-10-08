@@ -1,0 +1,39 @@
+﻿@model GuestResponse
+@{ Layout = null; }
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Your Results</title>
+    <link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <style>
+        body {
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-color: antiquewhite
+        }
+    </style>
+</head>
+<body>
+    <div class="text-center">
+        <br />
+        <h1 style="color:white">.</h1>
+        <h1 style="color:white">.</h1>
+        <h1 style="color:white">.</h1>
+        <h1 style="color:white">.</h1>
+        <h1 style="color:white">.</h1>
+        <h1 style="color:white">.</h1>
+        <h4 style="font-family:'Courier New'">
+            Given the lines per character you inputted, <br />
+            we predict this show will have a rating of: @(Model.Jan*0.0006684073 + Model.Andy*-0.00010374889 + Model.Angela*0.00043204277 + Model.Creed*0.00018377862 +
+        Model.Darryl*0.00014966059 + Model.David*-0.00027924282 + Model.Deangelo*0.00017375107 + Model.Dwight*-0.00012091573 +
+        Model.Erin*-0.00040549373 + Model.Gabe*-0.00005132769 + Model.Holly*0.00035839663 + Model.Jim*0.00008877197 +
+        Model.Karen*0.00007587975 + Model.Kelly*0.00009898491 + Model.Kevin*0.00007247803 + Model.Meredith*0.00003332451 +
+        Model.Michael*0.00016013468 + Model.Oscar*-0.00002029159 + Model.Pam*0.00017062493 +
+        Model.Phyllis*0.00007682832 + Model.Robert*0.00001466329 + Model.Roy*-0.00006323415 + Model.Ryan*0.00047490502 + Model.Stanley*0.00011226108 +
+        Model.Toby*0.00029717205 + Model.Todd*-0.00000448961 + 7.779883662036387)
+        </h4>
+    </div>
+</body>
+</html>

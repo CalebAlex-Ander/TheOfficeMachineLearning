@@ -1,0 +1,133 @@
+﻿@model GuestResponse
+@{ Layout = null; }
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Casting</title>
+    <link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <h5 class="bg-primary text-white text-center m-2 p-2">Enter number of lines for each character</h5>
+    <form asp-action="Casting" method="post" class="m-2">
+        <div asp-validation-summary="All"></div>
+        <div class="form-group">
+            <label style = "font-family:'Courier New'" asp-for="Jan">Jan:</label>
+            <input asp-for="Jan" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label style = "font-family:'Courier New'" asp-for="Andy">Andy:</label>
+            <input asp-for="Andy" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label style = "font-family:'Courier New'" asp-for="Angela">Angela:</label>
+            <input asp-for="Angela" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label style = "font-family:'Courier New'" asp-for="Creed">Creed:</label>
+            <input asp-for="Creed" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label style = "font-family:'Courier New'" asp-for="Darryl">Darryl:</label>
+            <input asp-for="Darryl" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label style = "font-family:'Courier New'" asp-for="David">David:</label>
+            <input asp-for="David" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label style = "font-family:'Courier New'" asp-for="Deangelo">Deangelo:</label>
+            <input asp-for="Deangelo" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label style = "font-family:'Courier New'" asp-for="Dwight">Dwight:</label>
+            <input asp-for="Dwight" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label style = "font-family:'Courier New'" asp-for="Erin">Erin:</label>
+            <input asp-for="Erin" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label style = "font-family:'Courier New'" asp-for="Gabe">Gabe:</label>
+            <input asp-for="Gabe" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label style = "font-family:'Courier New'" asp-for="Holly">Holly:</label>
+            <input asp-for="Holly" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label style = "font-family:'Courier New'" asp-for="Jim">Jim:</label>
+            <input asp-for="Jim" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label style = "font-family:'Courier New'" asp-for="Karen">Karen:</label>
+            <input asp-for="Karen" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label style = "font-family:'Courier New'" asp-for="Kelly">Kelly:</label>
+            <input asp-for="Kelly" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label style = "font-family:'Courier New'" asp-for="Kevin">Kevin:</label>
+            <input asp-for="Kevin" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label style = "font-family:'Courier New'" asp-for="Meredith">Meredith:</label>
+            <input asp-for="Meredith" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label style = "font-family:'Courier New'" asp-for="Michael">Michael:</label>
+            <input asp-for="Michael" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label style = "font-family:'Courier New'" asp-for="Oscar">Oscar:</label>
+            <input asp-for="Oscar" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label style = "font-family:'Courier New'" asp-for="Pam">Pam:</label>
+            <input asp-for="Pam" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label style = "font-family:'Courier New'" asp-for="Phyllis">Phyllis:</label>
+            <input asp-for="Phyllis" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label style = "font-family:'Courier New'" asp-for="Robert">Robert:</label>
+            <input asp-for="Robert" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label style = "font-family:'Courier New'" asp-for="Roy">Roy:</label>
+            <input asp-for="Roy" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label style = "font-family:'Courier New'" asp-for="Ryan">Ryan:</label>
+            <input asp-for="Ryan" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label style = "font-family:'Courier New'" asp-for="Stanley">Stanley:</label>
+            <input asp-for="Stanley" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label style = "font-family:'Courier New'" asp-for="Toby">Toby:</label>
+            <input asp-for="Toby" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label style = "font-family:'Courier New'" asp-for="Todd">Todd:</label>
+            <input asp-for="Todd" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary">Submit script</button>
+    </form>
+</body>
+</html>
+
+@*@<div class="form-group">
+    <label>Will you attend?</label>
+    <select asp-for="WillAttend" class="form-control">
+        <option value="">Choose an option</option>
+        <option value="true">Yes, I'll be there</option>
+        <option value="false">No, I can't come</option>
+    </select>
+</div>*@

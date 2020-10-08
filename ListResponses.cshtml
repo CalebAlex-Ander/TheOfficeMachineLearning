@@ -1,0 +1,70 @@
+﻿@model IEnumerable<GuestResponse>
+<h2>Your submissions</h2>
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Jan</th>
+            <th>Andy</th>
+            <th>Angela</th>
+            <th>Creed</th>
+            <th>Darryl</th>
+            <th>David</th>
+            <th>Deangelo</th>
+            <th>Dwight</th>
+            <th>Erin</th>
+            <th>Gabe</th>
+            <th>Holly</th>
+            <th>Jim</th>
+            <th>Karen</th>
+            <th>Kelly</th>
+            <th>Kevin</th>
+            <th>Meredith</th>
+            <th>Michael</th>
+            <th>Oscar</th>
+            <th>Pam</th>
+            <th>Phyllis</th>
+            <th>Robert</th>
+            <th>Roy</th>
+            <th>Ryan</th>
+            <th>Stanley</th>
+            <th>Toby</th>
+            <th>Todd</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (GuestResponse gr in Model)
+        {
+        <tr>
+            <td>@gr.Jan</td>
+            <td>@gr.Andy</td>
+            <td>@gr.Angela</td>
+            <td>@gr.Creed</td>
+            <td>@gr.Darryl</td>
+            <td>@gr.David</td>
+            <td>@gr.Deangelo</td>
+            <td>@gr.Dwight</td>
+            <td>@gr.Erin</td>
+            <td>@gr.Gabe</td>
+            <td>@gr.Holly</td>
+            <td>@gr.Jim</td>
+            <td>@gr.Karen</td>
+            <td>@gr.Kelly</td>
+            <td>@gr.Kevin</td>
+            <td>@gr.Meredith</td>
+            <td>@gr.Michael</td>
+            <td>@gr.Oscar</td>
+            <td>@gr.Pam</td>
+            <td>@gr.Phyllis</td>
+            <td>@gr.Robert</td>
+            <td>@gr.Roy</td>
+            <td>@gr.Ryan</td>
+            <td>@gr.Stanley</td>
+            <td>@gr.Toby</td>
+            <td>@gr.Todd</td>
+        </tr>
+        }
+    </tbody>
+</table>
+<h2>
+    <a asp-action="Results" class="btn btn-primary">View Results</a>
+</h2>
